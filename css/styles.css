@@ -1,0 +1,198 @@
+/* body */
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+
+/* h tags*/
+h1,h2,h3,h4,h5,h6{
+   font-family: "montserrat";
+}
+
+/* paragraph */
+p{
+  color:#8f8f8f ;
+}
+
+
+/* icons */
+
+span{
+  color: #000;
+ margin: 20px 10px;
+}
+
+
+/* heading */
+.big-heading{
+   /* font-family: "Montserrat-Black"; */
+  line-height: 1.5;
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+
+/* pricing */
+.section-heading{
+color : #000;
+font-size: 3rem;
+line-height: 1.5;
+}
+
+/* container */
+.container-fluid{
+  padding: 7% 15% ;
+}
+
+
+
+/*color section */
+.colored-section{
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+
+/*title-section*/
+
+/* navigation bar */
+.navbar{
+  padding: 0 0 7%  ;
+}
+
+/* brand name */
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+}
+
+/* nav item */
+.nav-item{
+  padding: 0 6%;
+  font-size: 1.5rem;
+
+}
+
+/* collapse bar */
+.navbar-nav{
+  padding-right: 20%;
+}
+
+/* nav link */
+.nav-link{
+  font-family: "Montserrat-light"
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* download button */
+.d-button{
+  margin: 5% 3% 5% 3%;
+
+}
+
+/* title image */
+.iphone{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+@media (max-width: 1147px){
+
+  .iphone{
+    position: static;
+    transform: rotate(0);
+
+  }
+  .row{
+    text-align:center;
+  }
+
+}
+
+/* feaatures-section */
+
+#features{
+  position: relative;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* testimonials-section */
+
+#testimonials{
+  background-color:  #ef8172;
+}
+
+/* test_image */
+
+.testimonial-image{
+  width: 10%;
+  padding: 10px 0 10px 0;
+  border-radius: 100%;
+}
+
+
+
+/* press section */
+
+#press{
+  background-color: #ef8172;
+  padding: 0% 10% 5% 10%;
+}
+
+/* press images */
+
+.press-images{
+  width: 20%;
+  margin: 10px 20px 50px;
+}
+
+/* pricing */
+
+#pricing{
+  padding: 10% 10%;
+  line-height: 2;
+}
+
+/* price text */
+
+.price-text{
+  color: black;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* padding car */
+
+.car{
+  padding: 20px 30px 20px;
+}
+
+
+/* no footer-section */
